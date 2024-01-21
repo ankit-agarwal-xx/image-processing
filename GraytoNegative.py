@@ -19,7 +19,7 @@ def NegativeImg(image):
             output[i, j] = 255-image[i, j] 
     return output
 
-IMAGE_PATH = r"C:\Users\satis\images2.jpeg" 
+IMAGE_PATH = r"images2.jpeg" 
 input_img = plt.imread(IMAGE_PATH)
 grayscale_img = RGBtoGRAY(input_img) 
 negative_grayscale_img = NegativeImg(grayscale_img) 

@@ -85,7 +85,7 @@ def find_centroid_perimeter(binary_image_path):
 
     return (centroid_x, centroid_y), perimeter
 
-binary_image_path = r"C:\Users\satis\images.jpeg"
+binary_image_path = r"images.jpeg"
 centroid, perimeter = find_centroid_perimeter(binary_image_path)
 
 if centroid is not None and perimeter is not None:

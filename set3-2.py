@@ -39,7 +39,7 @@ def apply_median_filter(image, kernel_size):
 
 if __name__ == "__main__":
     # Load an image
-    image_path = r"C:\Users\satis\images.jpeg"
+    image_path = r"images.jpeg"
     original_image = cv2.imread(image_path)
 
     if original_image is None:

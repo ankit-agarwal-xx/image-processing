@@ -28,7 +28,7 @@ def local_homogeneity(image, window_size):
     return homogeneity_map
 
 if __name__ == "__main__":
-    image_path = r"C:\Users\satis\images.jpeg"
+    image_path = r"images.jpeg"
     
     image = read_image(image_path)
 

@@ -27,7 +27,7 @@ def scale_image(image_path, scale_factor_x, scale_factor_y):
 
 if __name__ == "__main__":
     # Specify the path to the image file
-    image_path = r"C:\Users\satis\images.jpeg"
+    image_path = r"images.jpeg"
 
     # Specify scaling factors for x and y axes
     scale_factor_x = 2.0  # Scaling factor for the x-axis

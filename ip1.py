@@ -9,7 +9,7 @@ def RGBtoGRAY(image):
             output[i, j] = image[i, j, 0]*0.28 +image[i, j, 1]*0.59 + image[i, j, 2]*0.10
     return output
 
-IMAGE_PATH = r"C:\Users\satis\images.jpeg"
+IMAGE_PATH = r"images.jpeg"
 input_img = plt.imread(IMAGE_PATH) 
 grayscale_img = RGBtoGRAY(input_img) 
 plt.figure(figsize=(12, 6)) 
